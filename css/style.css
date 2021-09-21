@@ -1,0 +1,149 @@
+body {
+  margin: 0; }
+
+.head_photo {
+  height: 100vh;
+  width: 100%; }
+
+.top-wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.logo img {
+  width: 30vh;
+  height: 20vh;
+  margin-top: 15px; }
+
+nav {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 200px;
+  margin-right: 50px; }
+
+.top-wrapper nav a {
+  font-size: x-large;
+  text-decoration: none;
+  color: #ffffff; }
+
+header section {
+  margin-top: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+header section h1 {
+  color: #ffffff;
+  font-weight: 600; }
+
+.btn {
+  text-decoration: none;
+  color: #ffffff;
+  background: #0cb683;
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer; }
+
+.btn-top {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main {
+  margin: 10px 30vh 5px 30vh; }
+
+.toolbar {
+  display: flex;
+  justify-content: right;
+  margin-right: 9px; }
+
+main section h1 {
+  display: flex;
+  justify-content: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0; }
+
+article {
+  background: gainsboro;
+  display: flex;
+  margin-bottom: 15px; }
+
+article img {
+  margin: 10px; }
+
+article div {
+  margin: 10px 10px 10px 0; }
+
+.button {
+  display: flex;
+  justify-content: end; }
+
+.post-description {
+  color: red;
+  padding-bottom: 15px;
+  border-bottom: 2px solid gray; }
+
+article div h3 {
+  margin: 5px 0;
+  color: #0ab69f;
+  text-transform: uppercase; }
+
+article div p {
+  margin: 5px 0; }
+
+.about img {
+  width: 100%; }
+
+.end-img {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contact-form h4 {
+  text-align: end;
+  margin-top: 0; }
+
+.about {
+  margin: 0 12px; }
+
+.contact-form h4 {
+  text-transform: uppercase; }
+
+.todoOne {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 20px; }
+
+.todoOne div {
+  width: 50%; }
+
+.todoOne input {
+  width: 98%;
+  height: 30px; }
+
+.todoOne h5 {
+  color: #0ab69f;
+  margin-bottom: 5px;
+  text-align: right; }
+
+.todoTwo h5 {
+  color: #0ab69f;
+  margin-bottom: 5px;
+  text-align: right; }
+
+.todoTwo textarea {
+  width: 99%;
+  height: 130px; }
+
+#buttons .btn {
+  margin-top: 20px; }
+
+#buttons {
+  display: flex;
+  justify-content: right;
+  margin: 0; }
